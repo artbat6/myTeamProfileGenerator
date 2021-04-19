@@ -1,0 +1,28 @@
+{
+  "name": "myteamprofilegenerator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artbat6/myTeamProfileGenerator.git"
+  },
+  "author": "Arthur Bates",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/artbat6/myTeamProfileGenerator/issues"
+  },
+  "homepage": "https://github.com/artbat6/myTeamProfileGenerator#readme",
+  "dependencies": {
+    "inquirer": "^8.0.0"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
