@@ -75,15 +75,6 @@ function addMember() {
     });
 }
 
-
-// function renderHtml(memberArray) {
-//     startHtml();
-//     for (const member of memberArray) {
-//         addHtml(member);
-//     }
-//     finishHtml();
-// }
-
 function startHtml() {
   const html = `<!DOCTYPE html>
     <html lang="en">
@@ -161,3 +152,20 @@ function addHtml(member) {
     });
   });
 }
+
+function finishHtml() {
+  const html = ` </div>
+    </div>
+    
+</body>
+</html>`;
+
+  fs.appendFile("./output/team.html", html, function (err) {
+    if (err) {
+      console.log(err);
+    }
+  });
+  console.log("end");
+}
+
+initApp();
